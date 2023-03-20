@@ -1,0 +1,18 @@
+.Navigation {
+    display: flex;
+    background: black;
+    min-height: 5vh;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+}
+
+a {
+    color: aliceblue;
+}
