@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react';   //importar react
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import './index.css'; //importar estilos
+import App from './App'; //importar app que contiene todos los otros componentes
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
