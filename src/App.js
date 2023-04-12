@@ -37,6 +37,7 @@ const App = () => {
           <Route path="/mascaras" element={<Mascaras/>} />
 
 
+
         </Routes>             
       </div>
       </Router>

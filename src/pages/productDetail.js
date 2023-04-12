@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import axios from "axios"
-import ProductCard from '../components/ProductCard/ProductCard'
+import ProductDetailCard from '../components/ProductDetailCard/ProductDetailCard'
 import { useParams } from "react-router-dom"
 
 const ProductDetail = () => {
@@ -15,8 +15,9 @@ const ProductDetail = () => {
     },[id])
 
   return ( 
-    <div><h1>Detalle del producto</h1>
-        <ProductCard  product={product} />
+    <div className='detalles'><h1>Detalle del producto</h1>
+        <ProductDetailCard  product={product} />
+        
 
     </div>
   )
