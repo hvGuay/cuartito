@@ -1,0 +1,23 @@
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+  }
+  
+  .counter_container {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+  }
+  
+  .counter_count {
+    font-size: large;
+    margin-top: 10px;
+    font-weight: bold;
+    width: 15px;
+    text-align: center;
+  }
